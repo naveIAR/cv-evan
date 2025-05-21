@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Currículum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .perfil {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      max-width: 900px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .perfil img {
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .perfil-info {
+      flex: 1;
+    }
+
+    .descripcion, .tabla-cv {
+      background-color: #fff;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+
+    h3, h4 {
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Currículum Vitae</h1>
+  </header>
+
+  <section class="perfil">
+    <img src="foto.jpg" alt="Foto de Evan Ignacio Alamillo Romero">
+    <div class="perfil-info">
+      <h2>Evan Ignacio Alamillo Romero</h2>
+      <h3>Ingeniería en Tecnología de Software</h3>
+      <p>📧 nave845@outlook.com | 📞 +52 765 102 0573</p>
+    </div>
+  </section>
+
+  <section class="descripcion">
+    <h3>Sobre mí</h3>
+    <p>Soy una persona apasionada por la tecnología, con experiencia en desarrollo web y un fuerte interés en la innovación digital.</p>
+  </section>
+
+  <section class="tabla-cv">
+    <table>
+      <tr>
+        <td>
+          <h4>Desempeño Académico</h4>
+          <ul>
+            <li>Licenciatura en Ingeniería en Tecnología de Software</li>
+            <li>Staff de la federación de intercambio académico</li>
+            <li><a href="intercambio.html">Más sobre mi experiencia en intercambio académico</a></li>
+            <li>Graduado en 2027</li>
+          </ul>
+        </td>
+        <td>
+          <h4>Proyectos</h4>
+          <ul>
+            <li>Desarrollo de una aplicación móvil para gestión de medicamentos</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h4>Historial Laboral</h4>
+          <ul>
+            <li>CallCenter (2025)</li>
+          </ul>
+        </td>
+        <td>
+          <h4>Interés en Visual Studio</h4>
+          <ul>
+            <li>Uso de Visual Studio para desarrollo en C# y .NET</li>
+            <li>Configuración de entornos de desarrollo</li>
+            <li>Extensiones y debugging avanzado</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+</body>
+</html>
